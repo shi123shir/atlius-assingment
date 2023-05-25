@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.from-data{
+    padding:35px;
+     width: 100%;
+     height: 82%;
+     display: flex;
+   
+}
+   
+.from-head{
+    color: #FF8630;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif; 
+    margin-bottom: 0.5rem;
+}
+
+
+.inside-data{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    
+}
+
+.inside-data > input{
+    padding: 6px 12px;
+    font-size: 14px;
+    border: 1px solid #818a91;
+    display: inline-block;
+    min-height: 25px;
+    width: 100%;
+    max-width:100% ;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.submit-btn {
+  text-align: center;
+ background-color: #FF8630;
+min-height: 25px;
+width: 100%;
+ padding: 6px 12px;
+ margin-top: 0.5rem;
+}
+
+.submit-btn >span{
+    color:white;
+}
+
+.submit-btn:hover{
+    background-color: rgba(3, 3, 63, 0.823);
+}
+
+.yt-con{
+    padding: 10px;
+}
+
+.yt-con  > iframe{
+   height: 19.188rem;
+   width: 33.75rem;
+   border : 5px solid #FF8630;
+}
+
+/* card */
+.card{
+    min-width: 280px;
+    max-width: 280px;
+    height: 340px;
+    border: 5px solid green;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.image-describe{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.image-describe >h2{
+    color: #192a48;
+    font-size: 20px;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    font-family: "Poppins", Sans-serif;
+    font-weight: 600;
+    line-height: 1.4;
+    text-align: center;
+}
+
+
+.ivf-para2{
+    padding: 2% 2% 2% 2%;
+    position: relative;
+    display: block;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.ivf-para2 > div > p{
+    text-align: left;
+    color: #000000C2;
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0px 0px 20px;
+    padding: 10px;
+    margin-right: 120px;
+
+    
+}

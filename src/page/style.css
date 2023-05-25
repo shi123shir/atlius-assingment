@@ -1,0 +1,137 @@
+
+
+.mini-section{
+    padding-top: 15px
+}
+
+
+
+.docter-review{
+    padding:10px;
+}
+.docter-review > h1{
+    color: #FF8630;
+    font-family: "Poppins", Sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1;
+}
+
+.main-sec{
+     position: relative;
+        width: 1519px;
+        background-color: #f9f9f9;
+        left: 0px;
+        padding: 0% 0% 0% 0%;
+       height: 25rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    
+}
+
+.sec-all{
+    position: relative;
+    margin-top: 3%;
+    width: 71.125rem;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.svg-img{
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   min-width: 168px;
+   max-height: 357px;
+    padding: 10px;
+    align-content: center;
+    flex-wrap: wrap;
+   
+}
+.svg-img  > img{
+    position: relative;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    align-content: center;
+   
+}
+.svg-hed{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    min-width: 336px;
+    max-height: 357px;
+    flex-wrap: wrap;
+}
+
+.svg-hed > p{
+text-align: center;
+ margin-bottom: 20px;
+ font-size: 20px;
+ font-weight: 400;
+ font-family: "Poppins", Sans-serif;
+text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+margin-top: 10px;
+}
+
+
+
+.heading-2 > h1{
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    color: #FF8630;
+    font-family: "Poppins", Sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+  
+}
+.doc-para{
+    text-align: center;
+    color: #000000C2; 
+    width: 1120px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    height: 111px;
+    margin-bottom: 20px;
+     margin: auto;
+}
+.doc-para > p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 400px;
+ 
+}
+.doc-btn{
+    background-color: #FF8630;
+    width: 328px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.doc-btn > Link{
+    text-decoration: none;
+
+}
+.doc-btn > Link > span{
+    text-align: center;
+    font-size: 18px;
+    color:#ffffff;
+    
+  
+}
+

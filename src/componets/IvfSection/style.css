@@ -1,0 +1,38 @@
+.ivf-main{
+padding: 2% 2% 2% 2%;
+}
+.ivf-container{
+    max-width: 1140px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.ivf-wrap{
+    padding: 10px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.ivf-head{
+    color: #ff8630;
+    font-family: "Poppins", Sans-serif;
+    font-size:35px;
+    line-height:1;
+    margin-bottom: 10px;
+}
+
+.ivf-bold-con{
+font-size: 16px;
+font-family: "Poppins", Sans-serif;
+color: #333333;
+line-height: 1;
+margin: 20px 0px;
+}
+
+.ivf-bold-con > ul > li{
+     margin: 10px;
+    }
