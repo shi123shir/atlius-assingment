@@ -1,0 +1,16 @@
+.enq-container{
+    max-width: 1140px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+   padding:30.375px;
+}
+
+.enq-bold-con{
+    font-size: 16px;
+    font-family: "Poppins", Sans-serif;
+    color: #333333;
+    line-height: 1;
+    margin: 20px 0px;
+    }

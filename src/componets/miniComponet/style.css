@@ -110,3 +110,64 @@ width: 100%;
 
     
 }
+
+.toggle-st{
+    max-width: 1140px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+   padding:30.375px;
+}
+
+.tog-2{
+    padding: 10px;
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+}
+
+.tog-3{
+  margin-bottom: 20px;
+  width: 100%;
+  position: relative;
+}
+
+.tog-3 >h2 {
+    color:#FF8630;
+    font-size: 35px;
+    font-family: "Poppins", Sans-serif;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.tog-3 > div> p{
+    font-size: 17px;
+    font-family: "Poppins", Sans-serif;
+    margin-bottom: 20px;
+    margin: 30px;
+    
+}
+.todo-1{
+    padding: 15px;
+}
+
+.todo-1 > a{
+    color: #FF8630;
+    font-size: 23px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.fas{
+    color: #FF8630;
+   font-size: 24px;
+
+}
+.todo-1 > i {
+    padding:2px
+}

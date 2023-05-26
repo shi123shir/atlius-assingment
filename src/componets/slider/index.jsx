@@ -4,20 +4,16 @@ import Card from "../miniComponet/card";
 import arr from "../../assets/data"
 
 function Services() {
-
   let box = document.querySelector('.all-fig');
-  console.log(box)
   const btnpressprev = () => {
 
       let width = box.clientWidth;
       box.scrollLeft = box.scrollLeft - width;
-      console.log(width)
   }
 
   const btnpressnext = () => {
       let width = box.clientWidth;
       box.scrollLeft = box.scrollLeft + width;
-      console.log(width)
   }
 
   return (

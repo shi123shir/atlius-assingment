@@ -7,6 +7,7 @@ padding: 2% 2% 2% 2%;
     margin-right: auto;
     margin-left: auto;
     position: relative;
+   padding:30.375px;
 }
 .ivf-wrap{
     padding: 10px;
@@ -35,4 +36,15 @@ margin: 20px 0px;
 
 .ivf-bold-con > ul > li{
      margin: 10px;
+    }
+
+
+    .em-para{
+        margin-bottom: 25px;
+        text-align: left;
+        color: #000000C2;
+        font-family: "Poppins", Sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        padding: 30px;
     }

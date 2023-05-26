@@ -47,7 +47,7 @@ const Nav = () => {
            </section>
               <section>
                 <div className='left-bar'>
-                <div> <Link to='appoint' spy={true} smooth={true} offset={50} duration={500} className='text-alin'><span>Get in touch</span></Link></div> 
+                <div> <Link to='enqu' spy={true} smooth={true} offset={50} duration={500} className='text-alin'><span>Get in touch</span></Link></div> 
                 <div> <a href="tel:8882799799" className='text-alin'> <span > Call 8882799799 </span></a></div> 
             </div>
             </section>
