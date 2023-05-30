@@ -6,17 +6,17 @@ import arr from "../../assets/data"
 
 function Services() {
   let box = document.querySelector(".allFig");
-  console.log(box.clientWidth)
   const btnpressprev = () => {
       
       let width = box.clientWidth;
-     
+       console.log(width)
       box.scrollLeft = box.scrollLeft - width || 1243;
   }
 
   const btnpressnext = () => {
       let width = box.clientWidth;
-      box.scrollLeft = box.scrollLeft + width;
+      console.log(width)
+      box.scrollLeft = box.scrollLeft + width || 1243;
   }
 
   return (
