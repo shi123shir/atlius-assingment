@@ -4,10 +4,11 @@ import Card from "../miniComponet/card";
 import arr from "../../assets/data"
 
 function Services() {
-  let box = document.querySelector('.all-fig');
+  let box = document.querySelector(".all-fig");
   const btnpressprev = () => {
-
+      
       let width = box.clientWidth;
+     
       box.scrollLeft = box.scrollLeft - width;
   }
 
