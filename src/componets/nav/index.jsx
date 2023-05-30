@@ -18,7 +18,7 @@ const Nav = () => {
            <div className='mid-nav'>
              <ul>
               <li>
-              <Link  to="test" spy={true} smooth={true} offset={50} duration={500}> About Us
+              <Link  to="about" spy={true} smooth={true} offset={50} duration={500}> About Us
               
               </Link>
               </li>

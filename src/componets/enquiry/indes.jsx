@@ -3,7 +3,7 @@ import FromData from '../miniComponet/fromData'
 
 const Enquiry = () => {
   return (
-    <div style={{padding:"5% 0% 5% 0%"}}>
+    <div style={{padding:"2% 0% 2% 0%"}}>
         <div className='enq-container' id='enqu'>
         <div className='enq-bold-con'>
             <div style={{display:"flex" ,justifyContent:"center"}}>

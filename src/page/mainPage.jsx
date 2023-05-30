@@ -9,6 +9,8 @@ import IVF from "../componets/IvfSection/IVF";
 import { Link } from "react-scroll";
 import Location from "../componets/location";
 import Enquiry from "../componets/enquiry/indes";
+import AboutUs from "../componets/aboutUs/index"
+import Footer from "../componets/footer";
 
 const MainPage = () => {
   return (
@@ -118,6 +120,8 @@ const MainPage = () => {
       />
       </div>
      <Enquiry />
+     <AboutUs />
+     <Footer />
     </div>
   );
 };
