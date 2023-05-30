@@ -3,8 +3,10 @@ import "./style.css";
 import Card from "../miniComponet/card";
 import arr from "../../assets/data"
 
+
 function Services() {
-  let box = document.querySelector(".all-fig");
+  let box = document.querySelector(".allFig");
+  console.log(box)
   const btnpressprev = () => {
       
       let width = box.clientWidth;
@@ -23,13 +25,14 @@ function Services() {
         <div className="spcial-head">
           <h2>Our World-Class Specialties</h2>
         </div>
-        <div className="all-fig">
+        <div className="allFig">
           <div> 
             <button className="pre-btn" onClick={btnpressprev}><p>&lt;</p></button>
             <button className="next-btn" onClick={btnpressnext}><p>&gt;</p></button>
             </div>
-           {arr.map((x) => <div><Card  imgSrc = {x.img}  imgName={x.name} /></div>)}
+           {arr.map((x,id) => <div><Card  imgSrc = {x.img}  imgName={x.name} key={id} /></div>)}
       </div>
+  
     </div>
     </div>
   );
